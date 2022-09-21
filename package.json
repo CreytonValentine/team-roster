@@ -18,5 +18,8 @@
   "homepage": "https://github.com/CreytonValentine/team-roster#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
   }
 }
