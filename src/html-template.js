@@ -1,4 +1,5 @@
-
+const generateHtml = (naMe, position) => {
+    return `
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -9,6 +10,10 @@
     </head>
 
     <body>
-        <h1>kali</h1>
+        <h1>${naMe}</h1>
     </body>
     </html>
+    `;
+};
+
+module.exports = generateHtml;
